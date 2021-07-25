@@ -1,4 +1,4 @@
-const CryptoHash = require('./crypto-hash');
+const CryptoHash = require('../src/crypto-hash');
 
 describe('CryptoHash()', () => {
     it('generates a SHA-256 hashed output', () => {
